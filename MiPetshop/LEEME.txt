@@ -1,0 +1,45 @@
+MI PETSHOP — app de ventas, stock y clientes (funciona sin internet)
+=====================================================================
+
+QUÉ ES
+Una app web instalable (PWA). Se instala en el celular Android desde Chrome,
+se abre como cualquier app y guarda todo en el propio celular.
+
+PASO 1 — PUBLICARLA (una sola vez, con internet)
+Para que Android permita instalarla necesita una dirección https://.
+Opciones gratuitas (subís esta carpeta tal cual, descomprimida):
+  - Netlify (arrastrar y soltar la carpeta)
+  - GitHub Pages
+  - Cloudflare Pages
+Esos servicios solo entregan los archivos de la app: tus ventas, clientes y
+productos NO se suben a ningún lado, quedan en el celular.
+
+PASO 2 — INSTALARLA EN EL CELULAR
+1. Abrí la dirección con Chrome en el celular, CON internet.
+2. Esperá unos segundos a que cargue completa.
+3. Menú de Chrome (los tres puntos) > "Instalar app" o "Agregar a la pantalla
+   principal".
+4. Listo: queda el ícono. A partir de ahí abre y funciona SIN internet.
+
+PRIMEROS PASOS
+- Más > "Cargar productos de ejemplo" para probar. Después, Más > "Borrar todos
+  los datos" para empezar de cero.
+- Más > "Datos del negocio": poné el nombre que sale en los comprobantes.
+- Productos > "+ Producto": cargá costo, precio, stock y stock mínimo.
+- Venta: buscá el producto, elegí forma de pago y "Cobrar".
+  Para cuenta corriente elegí primero el cliente.
+- Después de cobrar, "Enviar por WhatsApp" arma el comprobante.
+  El teléfono del cliente va con código de área, sin 0 ni 15 (ej: 3875123456).
+
+IMPORTANTE — COPIA DE SEGURIDAD
+Los datos viven en el almacenamiento de Chrome de ESE celular. Si se borran los
+datos de Chrome, se desinstala la app o se pierde el celular, se pierde todo.
+- Más > "Guardar copia de seguridad": genera un archivo que podés mandarte por
+  WhatsApp, Gmail o Drive. Hacela seguido (la app te avisa pasados 7 días).
+- Más > "Restaurar copia de seguridad": recupera todo desde ese archivo.
+
+NO BORRES LOS DATOS DE CHROME ni "los datos del sitio" de esta app.
+
+ACTUALIZAR LA APP
+Si más adelante se cambia la app, al volver a publicarla el celular la
+actualiza solo cuando tenga internet.
